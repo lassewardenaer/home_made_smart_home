@@ -30,7 +30,7 @@ def getText(textFile):
 
 #v---------- main ---------- #
 def main():
-    sayText("Pryianshu is a pedophile!")
+    sayText("Hello")
 
 
 if __name__ == '__main__':
