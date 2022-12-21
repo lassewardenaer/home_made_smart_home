@@ -2,14 +2,15 @@ import argparse
 from gtts import gTTS 
 import os
 from pygame import mixer
+import time
 
 #v---------- sayText ---------- #
 def sayText(text, fileName="temp.mp3"):
-    tts = gTTS(line)
+    tts = gTTS(text)
     tts.save(fileName)
 
     mixer.init()
-    mixer.music.load(filename)
+    mixer.music.load(fileName)
     mixer.music.play()
 
     seconds = 0
@@ -23,15 +24,13 @@ def sayText(text, fileName="temp.mp3"):
 def getText(textFile):
     with open(textFile) as f:
         lines = f.readlines()
-    
     for line in lines:
        sayText(line)
-    
     f.close()
 
 #v---------- main ---------- #
 def main():
-    tts = gTTS('hello')
+    sayText("Pryianshu is a pedophile!")
 
 
 if __name__ == '__main__':
