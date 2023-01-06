@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "/home/lassewardenaer/home_made_smart_home/localFaceDetection",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true
+    }
+}
